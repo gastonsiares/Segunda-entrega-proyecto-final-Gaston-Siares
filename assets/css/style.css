@@ -1,172 +1,129 @@
-*{
-    margin: 0;
-    padding: 0;
+.container-fluid {
+  padding: 0;
 }
 
-
-.navbar{
-    background-color: #F56319 !important;
+.navbar {
+  background-color: #f56319 !important;
 }
 
-.navbar ul li{
-    font-size: 27px;
+.navbar ul li {
+  font-size: 27px;
 }
 
-
-.titulonoti{
-    background-color: #F58F20;
-    height: 90px;
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-.noti{
-    font-size: 30px;
-}
-.contacto{
-  
-    background-color: #F58F20;
-    height: 90px;
-    text-transform: uppercase;
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-    .ubi{
-        font-size: 30px;
-    }
-
-
-/*Footer*/
-.footer{
-    background-color: black;
-}
-.navfooter ul{
-    list-style: none;
-    text-decoration: none;
-}
-.navfooter ul li{
-    line-height: 30px;
-   
-}
- .navfooter ul li a{
-    text-decoration:  none;
-    color: #fff;
-}
-.derechos{
-    color: #fff;
-    font-size: 15px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.contactofooter ul{
-    list-style: none;
-}
-.contactofooter ul li{
-    line-height: 30px;
-    color: #fff;
-
+.titulonoti {
+  background-color: #F58F20;
+  height: 90px;
+  font-style: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*Contacto*/
-
-.mainc{
-    width: 100%;
-    height: 700px;
-    background-image: url(../img/campo.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column
-    
-}
-.contac{
-    color: #fff;
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.formu{
-    background: rgba(0, 0, 0, 0.4);
-    margin: auto;
-    padding: 50px;
-    border-radius: 7px;
-
-}
-.form-control{
-    
-    margin: 10px;
-    padding: 10px;
-}
-.textarea{
-    margin: 10px;
-    padding: 10px;
-}
-.Boton1{
-    margin: 10px;
-    padding: 10px;
-    font-size: 17px;
-}
-.Boton1:hover{
-    cursor: pointer;
-}
-.container-fluid{
-    padding: 0;
-}
-.form1{
-    color: #fff;
-    list-style: none;
-    text-decoration: none;
-}
-.Letrahazolv{
-    color: #fff;
-}
-.mainclientes{
-    width: 100%;
-    height: 700px;
-    background-image: url(../img/campo\ 3.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column
-}
-.cajaempr{
-    font-size: 30px;
-    margin: 10px;
-    padding: 10px;
-    line-height: 50px;
-    border: solid;
-    -webkit-box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17); 
-        box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17);
-}
-.sobrelaempr{
-    font-size: 40px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.imgposte3{
-    border: solid;
-    -webkit-box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17); 
-        box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17);
-}
-.Otrocolor{
-    color: #F56319;
-    font-size: 40px;
-}
-.titulonosotros{
-    font-size: 40px;
+.titulonoti h3 {
+  font-size: 30px;
 }
 
-.tarjeta{
-    text-align: center;
-        border: 1px solid;
-        border-radius: 10px 10px 10px 10px;
-        border-radius:10px;
-        padding: 10px 10px 10px 10px;
-        box-sizing: border-box;
-        margin: 5px;
-        transition: width 2s ,  height 2s;
+.contacto {
+  background-color: #F58F20;
+  height: 90px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.tarjeta:hover{
-    -webkit-box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17); 
-    box-shadow: 8px 7px 6px -2px rgba(0,0,0,0.17);
-    
+
+.contacto h3 {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer li {
+  line-height: 30px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.derechos {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactofooter ul {
+  list-style: none;
+}
+
+.contactofooter li {
+  line-height: 30px;
+  color: #fff;
+}
+
+.mainc {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/campo.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contac {
+  color: #fff;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formu {
+  background: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 50px;
+  border-radius: 7px;
+}
+
+.formu input {
+  margin: 10px;
+  padding: 10px;
+}
+
+.formu textarea {
+  margin: 10px;
+  padding: 10px;
+}
+
+.Boton1 {
+  font-size: 17px;
+}
+
+.Boton1:hover {
+  cursor: pointer;
+}
+
+.form1 {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
 }
